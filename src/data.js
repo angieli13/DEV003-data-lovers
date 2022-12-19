@@ -7,3 +7,6 @@ export const example = () => {
 export const anotherExample = () => {
   return 'OMG';
 };
+export const primerPersonaje = (data) => {
+  return data.characters[0];
+};
