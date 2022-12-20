@@ -1,9 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
     background-image: url(https://acegif.com/wp-content/uploads/gifs/starfall-gif-7.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+nav{
+    max-width: 1000px;
+    margin: auto;
+    background-color: coral;
+    font-size: 20px;
+    margin-top: 50px;
+   
+}
+
+.menu{
+   
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   top: 40px;
+  
+
+}
+
+    
+
 .logo {
     margin-left: 35%;
     position: relative;
     margin-bottom: 10%;
-    top: 90px;
+    top: 200px;
 }
+
+
