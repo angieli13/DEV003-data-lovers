@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9fa7f1908.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
 
   </head>
   <body>
@@ -15,22 +17,39 @@
     <header>
       <nav>
         <ul class="menu">
-        <li><a href="">CHARACTERS</a></li>
-        <li><a href="">SPELLS</a></li>
-        <li><a href="">BOOKS</a></li>
-        <li><a href="">CURIOUS FACTS</a></li>
-        <li><a href="">HOGWARTS HOUSE</a></li>
+        <li><a href="#" id="characters"><i class="fa-solid fa-circle-info"></i>START</a></li>
+        <li><a href="#" id="characters"><i class="fa-solid fa-user"></i>CHARACTERS</a></li>
+        <li><a href="#" id="spells"><i class="fa-solid fa-wand-sparkles"></i>SPELLS</a></li>
+        <li><a href="#" id="books"><i class="fa-solid fa-book"></i>BOOKS</a></li>
+        <li><a href="#" id="curious"><i class="fa-solid fa-magnifying-glass"></i>CURIOUS FACTS</a></li>
+        <li>
+          <a href="#" id="houses"><i class="fa-solid fa-house"></i>HOGWARTS HOUSE</a>
+          <ul class="menu-vertical">
+            <li><a href="#">Gryffindor</a></li>
+            <li><a href="#">Slytherin</a></li>
+            <li><a href="#">Ravenclaw</a></li>
+            <li><a href="#">Hufflepuff</a></li>
+          </ul>
+        </li>
   
         </ul>
       </nav>
     </header>
   <div class="logo">
-    <img src="images/logo 2.png" width="350" height="300"/>
+   <img src="images/logo 2.png" height="300"/>
   </div>
-  
+  <main>
+
+    
+  </main>
 
 
     <div id="root"></div>
-    <script src="main.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
+    <footer>
+      
+       <center><p>By: Itza Quintero & Angie Cómbita</p> </center>
+      
+    </footer>
   </body>
 </html>

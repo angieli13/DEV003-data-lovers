@@ -1,12 +1,18 @@
-// estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
+export const primerPersonaje = () => {
+  fetch('./data/harrypotter/harry.json')
+        .then(res=>res.json)
+        .then(datos=>{
+            console.log(datos);
+        
+            
+        })
+
 };
 
-export const anotherExample = () => {
-  return 'OMG';
-};
-export const primerPersonaje = (data) => {
-  return data.characters[0];
+const filterByHouse = (data, valor) =>{
+  const filterHarryByHouse = data.filter(
+    (harry) => harry.house.name === valor
+  );
+  return filterHarryByHouse;
 };

@@ -17,7 +17,7 @@ nav{
     margin: auto;
     background-color: rgb(226, 186, 7);
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     height: 60px;
     
    
@@ -29,7 +29,7 @@ nav{
     background-color: rgb(226, 186, 7);
     font-size: 20px;
     margin-top: 50px;
-    height: 60px;
+    
 }
 
 .menu{
@@ -37,11 +37,10 @@ nav{
    list-style: none;
    display: flex;
    justify-content: space-around;
-   
-   
-   
-  
 
+}
+.menu >li{
+    margin-top: 15px;
 }
 @font-face {
     font-family: TrueType;
@@ -54,8 +53,9 @@ nav{
     color: black;
     text-decoration: none;
     vertical-align: middle;
-
+ 
     }
+
 
 .menu > ul {
     vertical-align: middle;
@@ -66,6 +66,44 @@ nav{
     position: relative;
     margin-bottom: 10%;
     top: 100px;
+}
+/* Cuando pase el cursor sobre el menú se vea otro color*/
+.menu > li > a:hover{
+    background-color:white;    
+}
+/*Sub-menú de HOGWARTS HOUSE*/
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(226, 186, 7);
+    
+}
+.menu-vertical > li > a{
+    
+    font-size: xx-large;
+    font-family:TrueType;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+     
+    }
+.menu li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color:  white;
+}
+/*pie de página*/
+footer{
+    background: rgba(244, 179, 15, 0.233);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: auto;
+   
+    
 }
 
 
