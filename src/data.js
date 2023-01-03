@@ -1,18 +1,8 @@
 
-export const primerPersonaje = () => {
-  fetch('./data/harrypotter/harry.json')
-        .then(res=>res.json)
-        .then(datos=>{
-            console.log(datos);
-        
-            
-        })
+const data_harry = {
+  filterData: function(data, condicion) {
+    return data[condicion];
+  }
+}
 
-};
-
-const filterByHouse = (data, valor) =>{
-  const filterHarryByHouse = data.filter(
-    (harry) => harry.house.name === valor
-  );
-  return filterHarryByHouse;
-};
+export default data_harry;

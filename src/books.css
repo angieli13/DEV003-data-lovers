@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(https://media.tenor.com/MHKxe_n4UwwAAAAC/dark-aca.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(226, 186, 7);
+    font-size: 20px;
+    margin-top: 10px;
+    height: 60px;
+    
+   
+}
+
+.menus{
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(226, 186, 7);
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+.menu{
+   
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+
+}
+.menu >li{
+    margin-top: 15px;
+}
+@font-face {
+    font-family: TrueType;
+    src: url(harryP.TTF);
+}
+.menu > li > a{
+    
+    font-size: xx-large;
+    font-family:TrueType;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+ 
+    }
+
+
+.menu > ul {
+    vertical-align: middle;
+}
+
+.logo {
+    margin-left: 35%;
+    position: relative;
+    margin-bottom: 10%;
+    top: 100px;
+}
+/* Cuando pase el cursor sobre el menú se vea otro color*/
+.menu > li > a:hover{
+    background-color:white;    
+}
+/*Sub-menú de HOGWARTS HOUSE*/
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(226, 186, 7);
+    
+}
+.menu-vertical > li > a{
+    
+    font-size: xx-large;
+    font-family:TrueType;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+     
+    }
+.menu li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color:  white;
+}
+/*pie de página*/
+footer{
+    background: rgba(244, 179, 15, 0.233);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: auto;
+   
+    
+}

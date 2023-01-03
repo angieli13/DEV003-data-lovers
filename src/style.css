@@ -106,4 +106,10 @@ footer{
     
 }
 
+/*video fondo books*/
+video{
+    position: absolute;
+    background-size: cover;
+
+}
 
