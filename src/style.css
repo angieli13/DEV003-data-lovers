@@ -101,8 +101,22 @@ footer{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
-    margin: auto;
-   
+    margin: auto;   
+}
+.search-container {
+    width: 98%;
+    display: flex;
+    justify-content: right;
+}
+.search-input {
+    background-color: rgb(226, 186, 7);
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: 1px #000 solid;
+    width: 300px;
+    margin-left: 10cm;
+    margin-top: -30px;
     
 }
 
@@ -112,4 +126,5 @@ video{
     background-size: cover;
 
 }
+
 
