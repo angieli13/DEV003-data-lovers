@@ -126,5 +126,28 @@ video{
     background-size: cover;
 
 }
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
 
+}
+.characters-container {
+    border-radius: 10px;
+   border: 2px solid;
+   margin-top: -390px;
+   width: 900px;
+   height: 450px;
+   overflow: auto;
+   text-align: center;
+   margin-left: 5cm;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+}
 
