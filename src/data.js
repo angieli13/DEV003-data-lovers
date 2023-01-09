@@ -1,16 +1,17 @@
 import data from "./data/harrypotter/data.js";
 
-const data_harry = {
+export const characters = data.characters;
 
-  getData: function(){
-    //optional
-    return;
-  },
-
-  filterData: function(condicion) {
-    console.log(data[condicion])
-    return data[condicion];
-  }
+export const searching = (characters, searchText) => {
+  const search = characters.filter(element => element.name.toLowerCase().includes(searchText.toLowerCase()));
+  return search;
 }
+export const books = data.books;
 
-export default data_harry;
+export const spells = data.spells;
+
+export const funFacts = data.funFacts;
+
+export const filterHouses = (characters, houseName) => {
+  return characters.filter((character) => character.house === houseName);
+}

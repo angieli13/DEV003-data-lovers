@@ -134,14 +134,14 @@ video{
 
 }
 .characters-container {
-    border-radius: 10px;
+   border-radius: 10px;
    border: 2px solid;
    margin-top: -390px;
-   width: 900px;
-   height: 450px;
+   width: 1100px;
+   height: 400px;
    overflow: auto;
    text-align: center;
-   margin-left: 5cm;
+   margin-left: 2.5cm;
 }
 .container {
     display: flex;
@@ -150,4 +150,35 @@ video{
     gap: 20px;
     align-items: flex-end;
 }
-
+.character {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 15px;
+    color:black;
+    padding: 10px;
+    padding-left: 10px;
+    width: 200px;
+    margin: 2px;
+    text-align: left;
+    height: 250px;
+    background-image: url(images/hp.jpg);
+}
+.character img {
+    width: 100%;
+    max-width: 50px;
+}
+.book {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 15px;
+    color:black;
+    padding: 10px;
+    padding-left: 10px;
+    width: 200px;
+    margin: 2px;
+    text-align: left;
+    height: 250px;
+    background-image: url(images/hp.jpg);
+}
+.book img {
+    width: 100%;
+    max-width: 50px;
+}
