@@ -8,6 +8,8 @@ document.getElementById("charactersh").addEventListener("click", function(){
 });
 // Funcion para mostrar personajes
 function showCharacter(personajes) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
   const containerCharacters = document.querySelector("#books_div");
   containerCharacters.innerHTML = "";
   personajes.forEach((personaje) => {
@@ -38,12 +40,14 @@ searchBar.addEventListener("keyup", (event) => {
   //console.log(matchedCharacters);
 });
 
-document.getElementById("booksh").addEventListener("click", function(){ 
+document.getElementById("booksh").addEventListener("click", function( ){ 
   showBook(books)
   books.textContent = books.length;
 })
 
 function showBook(libros) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
   const containerBooks = document.querySelector("#books_div");
   containerBooks.innerHTML = "";
   libros.forEach((libro) => {
@@ -70,6 +74,8 @@ document.getElementById("spellsh").addEventListener("click", function(){
 });
 
 function showSpell(hechizos) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
   const containerSpells = document.querySelector("#books_div");
   containerSpells.innerHTML = "";
   hechizos.forEach((hechizo) => {
@@ -96,6 +102,8 @@ document.getElementById("curioush").addEventListener("click", function(){
 });
 
 function showFunFact(datosCuriosos) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
   const containerfunFacts = document.querySelector("#books_div");
   containerfunFacts.innerHTML = "";
   datosCuriosos.forEach((datoCurioso) => {
@@ -116,6 +124,8 @@ function showFunFact(datosCuriosos) {
 
 // Limpiar data 
 const showStart = () => {
+  document.getElementById("logo").style.display = "block";
+  document.getElementById("presentacion").style.display = "block";
   const inicio = document.querySelector("#books_div");
   inicio.innerHTML = "";
   return inicio;

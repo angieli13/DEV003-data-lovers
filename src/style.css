@@ -62,10 +62,11 @@ nav{
 }
 
 .logo {
-    margin-left: 35%;
+    margin-left: 30%;
     position: relative;
     margin-bottom: 10%;
     top: 100px;
+
 }
 /* Cuando pase el cursor sobre el menú se vea otro color*/
 .menu > li > a:hover{
@@ -135,11 +136,11 @@ video{
 }
 .characters-container {
    border-radius: 10px;
-   border: 2px solid;
-   margin-top: -390px;
+   border: 2px;
+   margin-top: 5px;
    width: 1100px;
    height: 400px;
-   overflow: auto;
+   overflow: auto; 
    text-align: center;
    margin-left: 2.5cm;
 }
