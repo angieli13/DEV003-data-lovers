@@ -8,7 +8,7 @@
 
 body {
     background-image: url(https://acegif.com/wp-content/uploads/gifs/starfall-gif-7.gif);
-    background-repeat: no-repeat;
+    
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ nav{
     margin-left: 30%;
     position: relative;
     margin-bottom: 10%;
-    top: 100px;
+    top: 250px;
 
 }
 /* Cuando pase el cursor sobre el menú se vea otro color*/
@@ -104,7 +104,7 @@ footer{
     color: aliceblue;
     margin: auto;   
 }
-.search-container {
+.search-container { /*boton buscar*/
     width: 98%;
     display: flex;
     justify-content: right;
@@ -120,27 +120,21 @@ footer{
     margin-top: -30px;
     
 }
-
-/*video fondo books*/
-video{
-    position: absolute;
-    background-size: cover;
-
-}
 .container {
-    width: 100%;
+    width: 120%;
     display: flex;
     justify-content: center;
-    background-color: #000;
+   
 
 }
+/*fondo cards*/
+
 .characters-container {
    border-radius: 10px;
    border: 2px;
    margin-top: 5px;
    width: 1100px;
    height: 400px;
-   overflow: auto; 
    text-align: center;
    margin-left: 2.5cm;
 }
@@ -151,35 +145,170 @@ video{
     gap: 20px;
     align-items: flex-end;
 }
+/*darle estilo dentro de las tarjetas personajes*/
 .character {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: cursive; 
     font-size: 15px;
     color:black;
+    text-align: justify;
     padding: 10px;
     padding-left: 10px;
-    width: 200px;
+    width: 350px;
     margin: 2px;
-    text-align: left;
-    height: 250px;
-    background-image: url(images/hp.jpg);
+    margin-top: 50px;
+    height: 390px;
+    background-color:rgba(255, 255, 255, 0.82);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.character:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.82);
+    transform: translateY(-3%);
 }
 .character img {
+    margin-top: 50px;
     width: 100%;
-    max-width: 50px;
+    max-width: 200px;
 }
+@font-face {
+    font-family: fuentelibros;
+    src: url(Lbook.ttf);
+}
+.character h1{
+    font-size: 30px;
+    font-family:fuentelibros;
+    display:inline;
+    text-align: justify;
+    color: goldenrod;
+ 
+}
+/*colocar imagen dentro de la tarjeta*/
+
+
 .book {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: cursive; 
     font-size: 15px;
     color:black;
+    text-align: justify;
+    margin-top: 100px;
     padding: 10px;
     padding-left: 10px;
-    width: 200px;
+    width: 350px;
     margin: 2px;
-    text-align: left;
-    height: 250px;
-    background-image: url(images/hp.jpg);
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.886);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.book:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.82);
+    transform: translateY(-3%);
 }
 .book img {
+    
     width: 100%;
-    max-width: 50px;
+    max-width: 70px;
+}
+@font-face {
+    font-family: fuentelibros;
+    src: url(Lbook.ttf);
+}
+.book h1{
+    font-size: 30px;
+    font-family:fuentelibros;
+    display:inline;
+    text-align: justify;
+    color: goldenrod;
+ 
+}
+/*colocar imagen dentro de la tarjeta spells*/
+
+
+.spells {
+    font-family: cursive; 
+    font-size: 15px;
+    color:white;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: #0e0a09c7;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.spells:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.82);
+    transform: translateY(-3%);
+}
+.spells img {
+    
+    width: 100%;
+    max-width: 200px;
+}
+@font-face {
+    font-family: fuentelibros;
+    src: url(Lbook.ttf);
+}
+.spells h1{
+    font-size: 30px;
+    font-family:fuentelibros;
+    display:inline;
+    text-align: justify;
+    color: goldenrod;
+ 
+}
+/*colocar imagen dentro de la tarjeta sabias que?*/
+
+
+.funFacts {
+    font-family: cursive; 
+    font-size: 15px;
+    color:black;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: #dcd7c3d0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.funFacts:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.82);
+    transform: translateY(-3%);
+}
+.funFacts img {
+    
+    width: 100%;
+    max-width: 200px;
+}
+@font-face {
+    font-family: fuentelibros;
+    src: url(Lbook.ttf);
+}
+.funFacts h1{
+    font-size: 30px;
+    font-family:fuentelibros;
+    display:inline;
+    text-align: justify;
+    color: rgb(70, 56, 22);
+    margin-top: 30px;
+ 
 }

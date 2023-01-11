@@ -15,11 +15,12 @@ function showCharacter(personajes) {
   personajes.forEach((personaje) => {
     const characterCard = document.createElement("div");
     characterCard.className = "character";
-    characterCard.style.fontFamily = 'Arial'
+    
     characterCard.innerHTML += `
     
               
-                  <p>Nombre: ${personaje.name}</p>
+                  <center><h1>Nombre: ${personaje.name}</h1></center>
+                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
                   <p>Especie: ${personaje.species}</p>
                   <p>Genero: ${personaje.gender}</p>
                   <p>Casa: ${personaje.house}</p>
@@ -53,11 +54,11 @@ function showBook(libros) {
   libros.forEach((libro) => {
     const libroCard = document.createElement("div");
     libroCard.className = "book";
-    libroCard.style.fontFamily = 'Arial'
     libroCard.innerHTML += `
-    <img src="${"images/hp.jpg"}" alt="">
+    
               
-                  <p>Titulo: ${libro.title}</p>
+                  <center><h1>Titulo: ${libro.title}</h1></center>
+                  <center><img src="${"images/booksmov.gif"}" alt=""></center>
                   <p>Fecha: ${libro.releaseDay}</p>
                   <p>Autora: ${libro.author}</p>
                   <p>Sinopsis: ${libro.description}</p>
@@ -80,12 +81,12 @@ function showSpell(hechizos) {
   containerSpells.innerHTML = "";
   hechizos.forEach((hechizo) => {
     const hechizoCard = document.createElement("div");
-    hechizoCard.className = "book";
-    hechizoCard.style.fontFamily = 'Arial'
+    hechizoCard.className = "spells";
     hechizoCard.innerHTML += `
-    <img src="${"images/hp.jpg"}" alt="">
+    
               
-                  <p>Nombre: ${hechizo.name}</p>
+                 <center><h1>Nombre: ${hechizo.name}</h1></center>
+                 <center><img src="${"images/imgspells.gif"}" alt=""></center>
                   <p>Pronunciacion: ${hechizo.pronunciation}</p>
                   <p>Tipo: ${hechizo.spell_type}</p>
                   <p>Descripcion: ${hechizo.description}</p>
@@ -108,13 +109,15 @@ function showFunFact(datosCuriosos) {
   containerfunFacts.innerHTML = "";
   datosCuriosos.forEach((datoCurioso) => {
     const datoCuriosoCard = document.createElement("div");
-    datoCuriosoCard.className = "book";
-    datoCuriosoCard.style.fontFamily = 'Arial'
+    datoCuriosoCard.className = "funFacts";
+    
     datoCuriosoCard.innerHTML += `
-    <img src="${"images/hp.jpg"}" alt="">
+    
               
-                  <p>Tipo: ${datoCurioso.type}</p>
-                  <p>Contenido: ${datoCurioso.content}</p>
+                  <center><h1>¿Sabías qué...?</h1></center>
+                  <center><img src="${"images/imgsabiasque.gif"}" alt=""></center>
+                  <h2>${datoCurioso.type}</h2>
+                  <p>${datoCurioso.content}</p>
               
           `;
     containerfunFacts.appendChild(datoCuriosoCard);
@@ -125,7 +128,7 @@ function showFunFact(datosCuriosos) {
 // Limpiar data 
 const showStart = () => {
   document.getElementById("logo").style.display = "block";
-  document.getElementById("presentacion").style.display = "block";
+  document.getElementById("presentacion").style.display = "block";//mostrar imagen de nuevo
   const inicio = document.querySelector("#books_div");
   inicio.innerHTML = "";
   return inicio;

@@ -2313,7 +2313,7 @@ export default {
       "other_name": "Summoning Charm",
       "pronunciation": "Various, including: AK-ee-oh or AK-see-oh , AK-see-oh , AS-see-oh (US), and AT-chee-oh (Anglo-Catholic pronunciation)",
       "spell_type": "Charm",
-      "description": "Summons an object towards the caster. It is able to summon objects in direct line of sight of the caster, as well as things out of view, by calling the object aloud after the incantation (unless the spell is casted nonverbally). This spell needs thought behind it, and the object must be clear in the casters mind before trying to summon it. The caster doesn't necessarily need to know the location of the target if they say the name of the object to be summoned, such as when Hermione Granger summoned some books from Dumbledore's office simply by saying \"Accio Horcrux books!\" while in Gryffindor Tower.",
+      "description": "Summons an object towards the caster.",
       "mention": "Harry Potter summoned his broom to complete the first task of the Triwizard Tournament in 1994, and to summon the Portkey to escape Voldemort and the Death Eaters in the Little Hangleton Graveyard in 1995. Also, in the Battle of the Seven Potters Harry summoned Hagrid when he fell. Molly Weasley used it to get the twins' candy. The twins used it to summon their brooms from Dolores Umbridge's office",
       "etymology": "The Latin word accio means \"I call\" or \"I summon\".",
       "note": null
@@ -2379,7 +2379,7 @@ export default {
       "other_name": "Animagus Spell",
       "pronunciation": "ah-MAH-toh ah-NEE-moh ah-nee-MAH-toh an-a-MAY-jus",
       "spell_type": "Transfiguration",
-      "description": "Spell used as part of the process of becoming an Animagus. The incantation has to be recited at sunrise and sundown, every day before the consumption of the Animagus Potion. The incantation is also recited just prior to the consumption of the potion, which has to take place just after a lightning storm starts. The incantation is recited while placing the wand's tip over one's heart.",
+      "description": "Spell used as part of the process of becoming an Animagus. The incantation has to be recited at sunrise and sundown.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -2951,7 +2951,7 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Curse",
-      "description": "Causes irritation in the eyes, forcing them to swell shut. The Oculus Potion is able to counteract this curse. Dragons are particularly susceptible to this curse, as their hide makes them resistant to most spells, while their eyes remain vulnerable.",
+      "description": "Causes irritation in the eyes, forcing them to swell shut. The Oculus Potion is able to counteract this curse. Dragons are particularly susceptible to this curse.",
       "mention": "It was suggested by Sirius Black in his letter to Harry for him to use this spell on a dragon. Olympe Maxime used this spell on some giants in 1995.",
       "etymology": "\"Conjunctivitis\" is the technical term for \"pink eye,\" demonstrating its effects of irritating the eye and causing it to shut.",
       "note": null
@@ -3006,7 +3006,7 @@ export default {
       "other_name": "Cruciatus Curse",
       "pronunciation": "KROO-see-oh",
       "spell_type": "Curse",
-      "description": "Inflicts intense pain on the recipient of the curse. This curse does not physically harm the victim, but may in extreme cases drive them insane. The pain is described as having hot knives being driven into the victim. It cannot be cast successfully by a person who is doing so out of pure spite or anger; one must feel a true desire to cause the victim pain. If one casts this spell, he or she will receive a life sentence in Azkaban prison for it, as with the other two Unforgivable Curses.",
+      "description": "Inflicts intense pain on the recipient of the curse. This curse does not physically harm the victim, but may in extreme cases drive them insane. The pain is described as having hot knives being driven into the victim. ",
       "mention": "Infamously used by Death Eaters Bellatrix Lestrange, Rabastan Lestrange, Rodolphus Lestrange and Bartemius Crouch Junior to torture the Aurors Frank and Alice Longbottom into insanity.",
       "etymology": "Latin crucio means \"I torture\".",
       "note": null
@@ -3336,7 +3336,7 @@ export default {
       "other_name": "Patronus Charm",
       "pronunciation": "ecks-PECK-toh pah-TROH-numb",
       "spell_type": "Charm",
-      "description": "This charm is a highly powerful and advanced protective spell which will conjure a spirit guardian of their positive emotions to defend against dark creatures; it can also send messages to other witches or wizards. The Patronus takes the form of an animal, unique to each person who casts it. The form of a Patronus can change when one has undergone a period of heightened emotion.",
+      "description": "This charm is a highly powerful and advanced protective spell which will conjure a spirit guardian of their positive emotions to defend against dark creatures; it can also send messages to other witches or wizards.",
       "mention": "Taught to Harry Potter by Remus Lupin during his Anti-Dementor lessons; This is the only known spell effective against Dementors or Lethifolds.",
       "etymology": "Patronus means \"protector\" in Latin; in archaic Latin, it means \"father\"; considering the form Harry's takes, this is interesting. The Latin word expecto means \"I await\"",
       "note": null
@@ -3809,7 +3809,7 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Charm",
-      "description": "Tracks the movements of human beings. The charm has a powerful effect in that it is not fooled by various methods of concealment and disguise, such as invisibility cloaks, the Polyjuice Potion or transformed Animagi.",
+      "description": "Tracks the movements of human beings. The charm has a powerful effect in that it is not fooled by various methods of concealment and disguise, such as invisibility cloaks.",
       "mention": "This charm was used on Marauder's Map by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew after charting the grounds and halls of Hogwarts Castle in order to track the movements of everyone within the castle grounds.",
       "etymology": null,
       "note": null
@@ -3842,7 +3842,7 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Charm",
-      "description": "Charm patented by Basil Horton and Randolph Keitch that allows for broom-riders to stop more precisely. This spell was first used on the Comet 140 to prevent players from overshooting the goal posts and from flying off-sides.",
+      "description": "Charm patented by Basil Horton and Randolph Keitch that allows for broom-riders to stop more precisely. This spell was first used on the Comet 140 to prevent players from overshooting the goal posts.",
       "mention": "Enchanted on all Comet 140 broomsticks.",
       "etymology": null,
       "note": null
@@ -3853,7 +3853,7 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Dark Arts",
-      "description": "This spell allows a part of a wizard's soul to pass into an object, thereby making the object a Horcrux. One has to commit murder and take advantage of the soul's \"splitting apart\" by this supreme act of evil in order to be able to perform this spell, and it is probably very complex. In 1943, Horace Slughorn described the spell to a young Tom Riddle as encasing a portion of the torn soul and placing it within an object. The spell itself is described in detail in a banned book known as \"Secret of the Darkest Art\", which Hermione Granger summoned from Albus Dumbledore's office near the end of their sixth year. According to the text, use of this spell to separate the soul will make the remaining portion of the soul very fragile, and can only be reversed by \"remorse\" of the wrongs the creator had made; however, the pain caused by attempting to reverse the creation of a Horcrux can destroy the individual.",
+      "description": "This spell allows a part of a wizard's soul to pass into an object, thereby making the object a Horcrux. One has to commit murder and take advantage of the soul's \"splitting apart\" by this supreme act of evil in order to be able to perform this spell.",
       "mention": "Used by Lord Voldemort while creating his Horcruxes.",
       "etymology": null,
       "note": null
@@ -3941,7 +3941,7 @@ export default {
       "other_name": "Imperius Curse",
       "pronunciation": "im-PEER-ee-oh",
       "spell_type": "Curse",
-      "description": "Places the victim completely under the caster's control. The victim is put into a trance-like state, and becomes very suggestible to the commands of the caster. However, those who are strong willed may learn to resist it. One of the three \"Unforgivable Curses,\" the use of this curse on another human results in capital punishment or life sentence in Azkaban.",
+      "description": "Places the victim completely under the caster's control. The victim is put into a trance-like state, and becomes very suggestible to the commands of the caster. However, those who are strong willed may learn to resist it. One of the three \"Unforgivable Curses,\".",
       "mention": "Used on many occasions. First seen in 1994 when Barty Crouch Jr, impersonating ex-Auror Alastor Moody, used it on a spider and later on students during a \"class demonstration\" in a Defence Against the Dark Arts class. While breaking into Gringotts in 1998, Harry used it on a goblin and a Death Eater when they became suspicious.",
       "etymology": "Latin impero, I command, and English \"imperious\".",
       "note": null
@@ -6410,7 +6410,7 @@ export default {
       "title": "Harry Potter and the Sorcerer's Stone",
       "releaseDay": "June 26, 1997",
       "author": "J. K. Rowling",
-      "description": "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure. During his first year at Hogwarts, he discovers that a malevolent and powerful wizard named Voldemort is in search of a philosopher's stone that prolongs the life of its owner."
+      "description": "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure."
     },
     {
       "id": 2,
@@ -6422,7 +6422,7 @@ export default {
     {
       "id": 3,
       "title": "Harry Potter and the Prisoner of Azkaban",
-      "releseDay": "July 8, 1999",
+      "releaseDay": "July 8, 1999",
       "author": "J. K. Rowling",
       "description": "Harry's third year of studies at Hogwarts is threatened by Sirius Black's escape from Azkaban prison. Apparently, it is a dangerous wizard who was an accomplice of Lord Voldemort and who will try to take revenge on Harry Potter."
     },
@@ -6438,7 +6438,7 @@ export default {
       "title": "Harry Potter and the Order of the Phoenix",
       "releaseDay": "June 21, 2003",
       "author": "J. K. Rowling",
-      "description": "In his fifth year at Hogwarts, Harry discovers that many members of the wizarding community do not know the truth about his encounter with Lord Voldemort. Cornelius Fudge, Minister of Magic, appoints Dolores Umbridge as Defense Against the Dark Arts teacher because he believes that Professor Dumbledore plans to take over her job. But his teachings are inadequate, so Harry prepares the students to defend the school against evil."
+      "description": "In his fifth year at Hogwarts, Harry discovers that many members of the wizarding community do not know the truth about his encounter with Lord Voldemort. "
     },
     {
       "id": 6,
@@ -6452,7 +6452,7 @@ export default {
       "title": "Harry Potter and the Deathly Hallows",
       "releaseDay": "July 21, 2007",
       "author": "J. K. Rowling",
-      "description": "Harry, Ron and Hermione go on a dangerous mission to locate and destroy the secret of Voldemort's immortality and destruction - the Horcruces. Alone, without the guidance of their teachers or the protection of Professor Dumbledore, the three friends must lean on each other more than ever. But there are Dark Forces in between that threaten to tear them apart. Harry Potter is getting closer and closer to the task for which he has been preparing since the first day he set foot in Hogwarts: the last battle with Voldemort."
+      "description": "Harry, Ron and Hermione go on a dangerous mission to locate and destroy the secret of Voldemort's immortality and destruction - the Horcruces. Alone, without the guidance of their teachers or the protection of Professor Dumbledore, the three friends must lean on each other more than ever. "
     },
     {
       "id": 8,
