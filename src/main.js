@@ -1,5 +1,5 @@
 
-import { searching, characters, books, spells, funFacts, filterHouses }from "./data.js";
+import { searching, characters, books, spells, funFacts, slytherinHouse, gryffindorHouse, ravenclawHouse, hufflepuffHouse }from "./data.js";
 
 // Ponerle la funcion de mostrar personajes al darle click al boton
 document.getElementById("charactersh").addEventListener("click", function(){ 
@@ -15,7 +15,6 @@ function showCharacter(personajes) {
   personajes.forEach((personaje) => {
     const characterCard = document.createElement("div");
     characterCard.className = "character";
-    
     characterCard.innerHTML += `
     
               
@@ -138,8 +137,118 @@ document.getElementById("start").addEventListener("click", function(){
   showStart("");
 });
 
-const houseCharacters = characters.map(({house})=>house);
-console.log(houseCharacters);
+document.getElementById("slytherin").addEventListener("click", function(){ 
+  showSlytherin(slytherinHouse)
+  slytherinHouse.textContent = slytherinHouse.length;
+});
+
+function showSlytherin(casaSlytherin) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
+  const containerSlytherin = document.querySelector("#books_div");
+  containerSlytherin.innerHTML = "";
+  casaSlytherin.forEach((casa) => {
+    const slytherinCard = document.createElement("div");
+    slytherinCard.className = "character";
+    slytherinCard.innerHTML += `
+    
+              
+                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <p>Especie: ${casa.species}</p>
+                  <p>Genero: ${casa.gender}</p>
+                  <p>Casa: ${casa.house}</p>
+              
+          `;
+    containerSlytherin.appendChild(slytherinCard);
+    //console.log(casaSlytherin);
+  });
+}
+
+document.getElementById("gryffindor").addEventListener("click", function(){ 
+  showGryffindor(gryffindorHouse)
+  gryffindorHouse.textContent = gryffindorHouse.length;
+});
+
+function showGryffindor(casaGryffindor) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
+  const containerGryffindor = document.querySelector("#books_div");
+  containerGryffindor.innerHTML = "";
+  casaGryffindor.forEach((casa) => {
+    const gryffindorCard = document.createElement("div");
+    gryffindorCard.className = "character";
+    gryffindorCard.innerHTML += `
+    
+              
+                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <p>Especie: ${casa.species}</p>
+                  <p>Genero: ${casa.gender}</p>
+                  <p>Casa: ${casa.house}</p>
+              
+          `;
+    containerGryffindor.appendChild(gryffindorCard);
+    //console.log(casaGryffindor);
+  });
+}
+
+document.getElementById("ravenclaw").addEventListener("click", function(){ 
+  showRavenclaw(ravenclawHouse)
+  ravenclawHouse.textContent = ravenclawHouse.length;
+});
+
+function showRavenclaw(casaRavenclaw) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
+  const containerRavenclaw = document.querySelector("#books_div");
+  containerRavenclaw.innerHTML = "";
+  casaRavenclaw.forEach((casa) => {
+    const ravenclawCard = document.createElement("div");
+    ravenclawCard.className = "character";
+    ravenclawCard.innerHTML += `
+    
+              
+                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <p>Especie: ${casa.species}</p>
+                  <p>Genero: ${casa.gender}</p>
+                  <p>Casa: ${casa.house}</p>
+              
+          `;
+    containerRavenclaw.appendChild(ravenclawCard);
+    //console.log(casaRavenclaw);
+  });
+}
+
+document.getElementById("hufflepuff").addEventListener("click", function(){ 
+  showHufflepuff(hufflepuffHouse)
+  hufflepuffHouse.textContent = hufflepuffHouse.length;
+});
+
+function showHufflepuff(casaHufflepuff) {
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("presentacion").style.display = "none";
+  const containerHufflepuff = document.querySelector("#books_div");
+  containerHufflepuff.innerHTML = "";
+  casaHufflepuff.forEach((casa) => {
+    const hufflepuffCard = document.createElement("div");
+    hufflepuffCard.className = "character";
+    hufflepuffCard.innerHTML += `
+    
+              
+                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <p>Especie: ${casa.species}</p>
+                  <p>Genero: ${casa.gender}</p>
+                  <p>Casa: ${casa.house}</p>
+              
+          `;
+    containerHufflepuff.appendChild(hufflepuffCard);
+    //console.log(casaHufflepuff);
+  });
+}
+
 
 
 

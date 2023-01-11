@@ -12,6 +12,10 @@ export const spells = data.spells;
 
 export const funFacts = data.funFacts;
 
-export const filterHouses = (characters, houseName) => {
-  return characters.filter((character) => character.house === houseName);
-}
+export const slytherinHouse = characters.filter(casa => casa.house === "Slytherin")
+
+export const gryffindorHouse = characters.filter(casa => casa.house === "Gryffindor")
+
+export const ravenclawHouse = characters.filter(casa => casa.house === "Ravenclaw")
+
+export const hufflepuffHouse = characters.filter(casa => casa.house === "Hufflepuff")
