@@ -18,7 +18,7 @@ function showCharacter(personajes) {
     characterCard.innerHTML += `
     
               
-                  <center><h1>Nombre: ${personaje.name}</h1></center>
+                  <center><h1>${personaje.name}</h1></center>
                   <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
                   <p>Especie: ${personaje.species}</p>
                   <p>Genero: ${personaje.gender}</p>
@@ -56,7 +56,7 @@ function showBook(libros) {
     libroCard.innerHTML += `
     
               
-                  <center><h1>Titulo: ${libro.title}</h1></center>
+                  <center><h1>${libro.title}</h1></center>
                   <center><img src="${"images/booksmov.gif"}" alt=""></center>
                   <p>Fecha: ${libro.releaseDay}</p>
                   <p>Autora: ${libro.author}</p>
@@ -84,7 +84,7 @@ function showSpell(hechizos) {
     hechizoCard.innerHTML += `
     
               
-                 <center><h1>Nombre: ${hechizo.name}</h1></center>
+                 <center><h1>${hechizo.name}</h1></center>
                  <center><img src="${"images/imgspells.gif"}" alt=""></center>
                   <p>Pronunciacion: ${hechizo.pronunciation}</p>
                   <p>Tipo: ${hechizo.spell_type}</p>
@@ -153,7 +153,7 @@ function showSlytherin(casaSlytherin) {
     slytherinCard.innerHTML += `
     
               
-                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><h1>${casa.name}</h1></center>
                   <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
@@ -181,7 +181,7 @@ function showGryffindor(casaGryffindor) {
     gryffindorCard.innerHTML += `
     
               
-                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><h1> ${casa.name}</h1></center>
                   <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
@@ -209,7 +209,7 @@ function showRavenclaw(casaRavenclaw) {
     ravenclawCard.innerHTML += `
     
               
-                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><h1> ${casa.name}</h1></center>
                   <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
@@ -237,7 +237,7 @@ function showHufflepuff(casaHufflepuff) {
     hufflepuffCard.innerHTML += `
     
               
-                  <center><h1>Nombre: ${casa.name}</h1></center>
+                  <center><h1> ${casa.name}</h1></center>
                   <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
