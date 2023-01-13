@@ -1,11 +1,13 @@
 
-import { searching, characters, ordenadosA, ordenadosZ, books, spells, funFacts, slytherinHouse, gryffindorHouse, ravenclawHouse, hufflepuffHouse }from "./data.js";
+import { searching, characters, ordenadosA, ordenadosZ, books, spells, funFacts, slytherinHouse, gryffindorHouse, ravenclawHouse, hufflepuffHouse}from "./data.js";
 
 // Ponerle la funcion de mostrar personajes al darle click al boton
 document.getElementById("charactersh").addEventListener("click", function(){ 
+  console.log("entro");
   showCharacter(characters)
   characters.textContent = characters.length;
 });
+
 // Funcion para mostrar personajes
 function showCharacter(personajes) {
   document.getElementById("logo").style.display = "none";
@@ -39,26 +41,30 @@ searchBar.addEventListener("keyup", (event) => {
   characters.textContent = matchedCharacters.length;
   //console.log(matchedCharacters);
 });
-// * Ordenar *
-const ordenar = document.querySelector("#sort");
-ordenar.addEventListener("change", (e) => {
+
+/*ordenar personajes*/
+document.getElementById('sort_az').addEventListener("click", function() {
   let ordenados = [];
-    if (e.target.value === "A-Z") {
-    ordenados = ordenadosA(characters);
     
-    total.textContent = ordenados.length;
-    document.querySelector(ordenados)
-    
-   
-  } else if (e.target.value === "Z-A") {
-    ordenados = ordenadosZ(characters);
-    total.textContent = ordenados.length;
-    document.querySelector(ordenados);
-  }
+  ordenados = ordenadosA(characters);
+  //document.querySelector(ordenados);
+
+  showCharacter(ordenados)
   console.log(ordenados)
 });
 
+document.getElementById('sort_za').addEventListener("click", function() {
+  let ordenados = [];
+    
+  ordenados = ordenadosZ(characters);
+  //document.querySelector(ordenados);
 
+  showCharacter(ordenados)
+  console.log(ordenados)
+});
+
+ 
+//funciónpara books
 document.getElementById("booksh").addEventListener("click", function( ){ 
   showBook(books)
   books.textContent = books.length;
