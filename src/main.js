@@ -174,12 +174,12 @@ function showSlytherin(casaSlytherin) {
   containerSlytherin.innerHTML = "";
   casaSlytherin.forEach((casa) => {
     const slytherinCard = document.createElement("div");
-    slytherinCard.className = "character";
+    slytherinCard.className = "cSlytherin";
     slytherinCard.innerHTML += `
     
               
                   <center><h1>${casa.name}</h1></center>
-                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <center><img src="${"images/Slytherin.png"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
                   <p>Casa: ${casa.house}</p>
@@ -202,12 +202,12 @@ function showGryffindor(casaGryffindor) {
   containerGryffindor.innerHTML = "";
   casaGryffindor.forEach((casa) => {
     const gryffindorCard = document.createElement("div");
-    gryffindorCard.className = "character";
+    gryffindorCard.className = "cGryffindor";
     gryffindorCard.innerHTML += `
     
               
                   <center><h1> ${casa.name}</h1></center>
-                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <center><img src="${"images/Gryffindor.png"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
                   <p>Casa: ${casa.house}</p>
@@ -230,12 +230,12 @@ function showRavenclaw(casaRavenclaw) {
   containerRavenclaw.innerHTML = "";
   casaRavenclaw.forEach((casa) => {
     const ravenclawCard = document.createElement("div");
-    ravenclawCard.className = "character";
+    ravenclawCard.className = "cRavenclaw";
     ravenclawCard.innerHTML += `
     
               
                   <center><h1> ${casa.name}</h1></center>
-                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <center><img src="${"images/Ravenclaw.png"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
                   <p>Casa: ${casa.house}</p>
@@ -258,12 +258,12 @@ function showHufflepuff(casaHufflepuff) {
   containerHufflepuff.innerHTML = "";
   casaHufflepuff.forEach((casa) => {
     const hufflepuffCard = document.createElement("div");
-    hufflepuffCard.className = "character";
+    hufflepuffCard.className = "cHufflepuff";
     hufflepuffCard.innerHTML += `
     
               
                   <center><h1> ${casa.name}</h1></center>
-                  <center><img src="${"images/imgcharacter.gif"}" alt=""></center>
+                  <center><img src="${"images/cHufflepuff.png"}" alt=""></center>
                   <p>Especie: ${casa.species}</p>
                   <p>Genero: ${casa.gender}</p>
                   <p>Casa: ${casa.house}</p>
