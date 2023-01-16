@@ -20,7 +20,7 @@ export const ravenclawHouse = characters.filter(casa => casa.house === "Ravencla
 
 export const hufflepuffHouse = characters.filter(casa => casa.house === "Hufflepuff")
 
-export const ordenadosA = (characters) => characters.sort ((a, b) => a.name.localeCompare(b.name));
+export const orderedA = (characters) => characters.sort ((a, b) => a.name.localeCompare(b.name));
 
-export const ordenadosZ = (characters) => characters.sort ((a, b) => b.name.localeCompare(a.name));
+export const orderedZ = (characters) => characters.sort ((a, b) => b.name.localeCompare(a.name));
 

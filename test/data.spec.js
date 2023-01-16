@@ -1,11 +1,4 @@
-import { searching, characters,/* books,spells, funFacts, slytherinHouse, gryffindorHouse, ravenclawHouse, hufflepuffHouse */} from '../src/data.js';
-
-
-/*describe('example', () => {
-  it('deberia retornar los libros', () => {
-    expect(books.length).toBe(8);
-  });
-});*/
+import { searching, characters, orderedA, orderedZ } from '../src/data.js';
 
 describe( 'searching',()=>{
   it('conjunto de test para searching', () =>{
@@ -36,12 +29,39 @@ describe( 'searching',()=>{
   )
 }
 )
-/*describe('anotherExample', () => {
+
+describe('Funcion orderedA ordena alfabéticamente desde la A a la Z', () => {
   it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
+    expect(typeof orderedA).toBe('function');
   });
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it('Debería retornar los nombres de los personajes ordenados de la A-Z', () => {
+
+    const orderAz = orderedA (characters);
+
+    expect(orderAz[0].name).toBe('Aberforth Dumbledore');
+    expect(orderAz[1].name).toBe('Alastor Moody');
+    expect(orderAz[2].name).toBe('Albus Dumbledore');
+    expect(orderAz[3].name).toBe('Angelina Johnson');
+    expect(orderAz[4].name).toBe('Aragog');
+
   });
-});*/
+});
+
+describe('Funcion orderedZ ordena alfabéticamente desde la Z a la A', () => {
+  it('is a function', () => {
+    expect(typeof orderedZ).toBe('function');
+  });
+
+  it('Debería retornar los nombres de los personajes ordenados de la Z a la A', () => {
+
+    const orderZA = orderedZ (characters);
+
+    expect(orderZA[0].name).toBe('Zacharias Smith');
+    expect(orderZA[1].name).toBe('Xenophilius Lovegood');
+    expect(orderZA[2].name).toBe('Vincent Crabbe');
+    expect(orderZA[3].name).toBe('Viktor Krum');
+    expect(orderZA[4].name).toBe('Vernon Dursley');
+
+  });
+});
