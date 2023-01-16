@@ -44,25 +44,25 @@ Una mujer de 19 años, está interesada en los hechizos que leyó en los libros 
 #### Prototipo de baja fidelidad
 
 Boceto en papel y lapiz de la interfaz.
-![Boceto](src/images/bocetopl.png)
+![Boceto](https://github.com/angieli13/DEV003-data-lovers/blob/de0bd97a9e786af4168950d1a195fe66164b989c/src/images/bocetopl.png)
 
 
 #### Prototipo de alta fidelidad
 
 Para realizar el diseño se empleo la herramienta[Figma](https://www.figma.com/).
-![Boceto](src/images/figma.png)
+![Boceto](https://github.com/angieli13/DEV003-data-lovers/blob/de0bd97a9e786af4168950d1a195fe66164b989c/src/images/figma.png)
 
 #### Pruebas unitarias
 En la creación de los test de usuario se tomaron varias muestras de la data general y se crearon las pruebas para las funciones de búsqueda, ordenar los personajes de la A-Z y Z-A.
 Como resultado, se obtuvo el 100% de cobertura en los tests.
 
-![Test](src/images/test.png)
+![Test](https://github.com/angieli13/DEV003-data-lovers/blob/de0bd97a9e786af4168950d1a195fe66164b989c/src/images/test.png)
 
 #### Implementación de la interfaz de usuario
 En nuestro proyecto se logró durante la implementación de usuarios:
 
 Mostrar la data en una interfaz: 
-![Interfaz](src/images/paginaweb.png)
+![Interfaz](https://github.com/angieli13/DEV003-data-lovers/blob/de0bd97a9e786af4168950d1a195fe66164b989c/src/images/paginaweb.png)
 
 Cards:
-![cards](src/images/paginaweb.png)
+![cards](https://github.com/angieli13/DEV003-data-lovers/blob/de0bd97a9e786af4168950d1a195fe66164b989c/src/images/cards.png)
