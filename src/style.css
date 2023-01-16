@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     background-image: url(https://acegif.com/wp-content/uploads/gifs/starfall-gif-7.gif);
     
@@ -19,8 +17,7 @@ nav{
     font-size: 20px;
     margin-top: 10px;
     height: 60px;
-    
-   
+      
 }
 
 .menu{
@@ -53,9 +50,7 @@ nav{
     color: black;
     text-decoration: none;
     vertical-align: middle;
- 
     }
-
 
 .menu > ul {
     vertical-align: middle;
