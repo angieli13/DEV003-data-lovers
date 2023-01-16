@@ -65,7 +65,7 @@ nav{
     margin-left: 30%;
     position: relative;
     margin-bottom: 10%;
-    top: 250px;
+    top: 10px;
 
 }
 /* Cuando pase el cursor sobre el menú se vea otro color*/
@@ -163,7 +163,7 @@ footer{
     padding-left: 10px;
     width: 350px;
     margin: 2px;
-    margin-top: 50px;
+    margin-top: 10px;
     height: 390px;
     background-color:rgba(255, 255, 255, 0.959);
     border-radius: 8px;
@@ -202,7 +202,7 @@ footer{
     padding-left: 10px;
     width: 350px;
     margin: 2px;
-    margin-top: 50px;
+    margin-top: 10px;
     height: 430px;
     background-color:rgba(255, 255, 255, 0.959);
     border-radius: 8px;
@@ -241,7 +241,7 @@ footer{
     padding-left: 10px;
     width: 350px;
     margin: 2px;
-    margin-top: 50px;
+    margin-top: 10px;
     height: 430px;
     background-color:rgba(255, 255, 255, 0.959);
     border-radius: 8px;
