@@ -3,7 +3,6 @@ import { searching, characters, orderedA, orderedZ, books, spells, funFacts, sly
 
 // Ponerle la funcion de mostrar personajes al darle click al boton
 document.getElementById("charactersh").addEventListener("click", function(){ 
-  //console.log("entro");
   showCharacter(characters)
   characters.textContent = characters.length;
 });
