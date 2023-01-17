@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(https://acegif.com/wp-content/uploads/gifs/starfall-gif-7.gif);
+    
+    background-size: cover;
+}
+
+nav{
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(226, 186, 7);
+    font-size: 20px;
+    margin-top: 10px;
+    height: 60px;
+    
+   
+}
+
+.menu{
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(226, 186, 7);
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+.menu{
+   
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+
+}
+.menu >li{
+    margin-top: 15px;
+}
+@font-face {
+    font-family: TrueType;
+    src: url(harryP.TTF);
+}
+.menu > li > a{
+    
+    font-size: xx-large;
+    font-family:TrueType;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+ 
+    }
+
+
+.menu > ul {
+    vertical-align: middle;
+}
+
+.logo {
+    margin-left: 30%;
+    position: relative;
+    margin-bottom: 10%;
+    top: 250px;
+
+}
+/* Cuando pase el cursor sobre el menú se vea otro color*/
+.menu > li > a:hover{
+    background-color:white;    
+}
+/*Sub-menú de HOGWARTS HOUSE*/
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(226, 186, 7);
+    text-align: center;
+    vertical-align: middle;
+}
+.menu-vertical > li > a{
+    
+    font-size: xx-large;
+    font-family:TrueType;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+    
+    
+     
+    }
+.menu li:hover .menu-vertical{
+    display: block;
+    
+}
+.menu-vertical li:hover{
+    background-color:  white;
+  
+    
+}
+
+/*pie de página*/
+footer{
+    background: rgba(244, 179, 15, 0.233);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: auto;   
+}
+.search-container { /*boton buscar*/
+    width: 98%;
+    display: flex;
+    justify-content: right;
+}
+.search-input {
+    background-color: rgb(226, 186, 7);
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: 1px #000 solid;
+    width: 300px;
+    margin-left: 10cm;
+    margin-top: -30px;
+    
+}
+.container {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    
+
+}
+/*fondo cards*/
+
+.characters-container {
+   border-radius: 10px;
+   border: 2px;
+   margin-top: 5px;
+   width: 1100px;
+   height: 400px;
+   text-align: center;
+   margin-left: 2.5cm;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+}
+/*darle estilo dentro de las tarjetas personajes*/
+.character {
+    font-family: cursive; 
+    font-size: 20px;
+    color:black;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    margin-top: 50px;
+    height: 390px;
+    background-color:rgba(255, 255, 255, 0.959);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(203, 154, 5, 0.989);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.character:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.82);
+    transform: translateY(-3%);
+}
+.character img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.character h1{
+    font-size: 60px;
+    font-family: TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(181, 143, 5);
+ 
+}
+/*colocar imagen dentro de la tarjeta*/
+
+
+.book {
+    font-family: cursive; 
+    font-size: 18px;
+    color:black;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    margin-top: 50px;
+    height: 430px;
+    background-color:rgba(255, 255, 255, 0.959);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(203, 154, 5, 0.989);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.book:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.82);
+    transform: translateY(-3%);
+}
+.book img {
+    
+    width: 100%;
+    max-width: 70px;
+}
+
+.book h1{
+    font-size: 40px;
+    font-family: TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(181, 143, 5);
+ 
+}
+/*colocar imagen dentro de la tarjeta spells*/
+
+
+.spells {
+    font-family: cursive; 
+    font-size: 18px;
+    color:black;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    margin-top: 50px;
+    height: 430px;
+    background-color:rgba(255, 255, 255, 0.959);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(203, 154, 5, 0.989);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.spells:hover{
+    box-shadow: 10px 10px 15px rgba(220, 174, 24, 0.82);
+    transform: translateY(-3%);
+}
+.spells img {
+    
+    width: 100%;
+    max-width: 150px;
+}
+
+.spells h1{
+    font-size: 55px;
+    font-family: TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(181, 143, 5);
+ 
+}
+/*colocar imagen dentro de la tarjeta sabias que?*/
+
+
+.funFacts {
+    font-family: cursive; 
+    font-size: 20px;
+    color:rgb(82, 65, 12);
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: #f0e8d1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(243, 239, 11, 0.986);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.funFacts:hover{
+    box-shadow: 10px 10px 15px rgb(255, 255, 255);
+    transform: translateY(-3%);
+}
+.funFacts img {
+    
+    width: 100%;
+    max-width: 200px;
+}
+@font-face {
+    font-family: fuentelibros;
+    src: url(Lbook.ttf);
+}
+.funFacts h1{
+    font-size: 50 px;
+    font-family:fuentelibros;
+    display:inline;
+    text-align: justify;
+    color: black;
+    margin-top: 30px;
+ 
+}
+/*casa Slytherin*/
+.cSlytherin {
+    font-family: cursive;  
+    font-size: 30px;
+    color:rgb(6, 7, 6);
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.cSlytherin:hover{
+    box-shadow: 10px 10px 15px rgb(10, 91, 3);
+    transform: translateY(-3%);
+}
+.cSlytherin img {
+    
+    width: 100%;
+    max-width: 200px;
+}
+
+.cSlytherin h1{
+    font-size: 60px;
+    font-family:TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(10, 91, 3);
+    margin-top: 30px;
+ 
+}
+/*casa Gryffindor*/
+.cGryffindor {
+    font-family: cursive;  
+    font-size: 30px;
+    color:rgb(6, 7, 6);
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: #f2f1ec;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.76);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.cGryffindor:hover{
+    box-shadow: 10px 10px 15px rgb(204, 10, 10);
+    transform: translateY(-3%);
+}
+.cGryffindor img {
+    
+    width: 100%;
+    max-width: 200px;
+}
+
+.cGryffindor h1{
+    font-size: 60px;
+    font-family:TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(113, 81, 60);
+    margin-top: 30px;
+ 
+}
+/*casa Ravenclaw*/
+.cRavenclaw {
+    font-family: cursive;  
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: #f2f1ec;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.cRavenclaw:hover{
+    box-shadow: 10px 10px 15px  rgb(27, 99, 234);
+    transform: translateY(-3%);
+}
+.cRavenclaw img {
+    
+    width: 100%;
+    max-width: 200px;
+}
+
+.cRavenclaw h1{
+    font-size: 60px;
+    font-family:TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(27, 99, 234);
+    margin-top: 30px;
+ 
+}
+/*casa cHufflepuff*/
+.cHufflepuff {
+    font-family: cursive;  
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 350px;
+    margin: 2px;
+    height: 450px;
+    background-color: #f2f1ec;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(190, 144, 7, 0.687);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.cHufflepuff:hover{
+    box-shadow: 10px 10px 15px rgb(102, 105, 112);
+    transform: translateY(-3%);
+}
+.cHufflepuff:img {
+    
+    width: 5%;
+    max-width:5px;
+}
+
+.cHufflepuff h1{
+    font-size: 70px;
+    font-family:TrueType;
+    display:inline;
+    text-align: justify;
+    color: rgb(102, 105, 112);
+    margin-top: 30px;
+ 
+}
+/***********responsividad***********/
+  /*responsividad tablets*/
+  @media screen and  (max-width:768px) {
+    /*para todas las paginas, general*/
+    body {
+        background-image: url(https://acegif.com/wp-content/uploads/gifs/starfall-gif-7.gif);
+        
+        background-size: 375px;
+    }
+    #btn-bars{
+        display: block;
+        width: 60px;
+        padding: 10px;
+        color:#796B07;
+        font-size: 30px;
+        transition: all 500ms ease;
+      }
+    nav{
+        max-width: 100px;
+        margin: auto;
+        background-color: rgb(226, 186, 7);
+        font-size: 20px;
+        margin-top: 10px;
+        height: 60px;
+        
+       
+    }
+    
+    .menu{
+        max-width: 200px;
+        margin: auto;
+        background-color: rgb(226, 186, 7);
+        font-size: 20px;
+        margin-top: 50px;
+        
+    }
+    
+    .menu{
+       
+       list-style: none;
+       display: flex;
+       justify-content: space-around;
+    
+    }
+    .menu >li{
+        margin-top: 15px;
+    }
+    @font-face {
+        font-family: TrueType;
+        src: url(harryP.TTF);
+    }
+    .menu > li > a{
+        
+        font-size: 100cm;
+        font-family:TrueType;
+        color: black;
+        text-decoration: none;
+        vertical-align: middle;
+        max-width: 375px;
+
+     
+        }
+    
+    
+    .menu > ul {
+        vertical-align: middle;
+    }
+    
+    .logo {
+        margin-left: 30%;
+        position: relative;
+        margin-bottom: 10%;
+        top: 250px;
+    
+    }
+    /* Cuando pase el cursor sobre el menú se vea otro color*/
+    .menu > li > a:hover{
+        background-color:white;    
+    }
+    /*Sub-menú de HOGWARTS HOUSE*/
+    .menu-vertical{
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: rgb(226, 186, 7);
+        text-align: center;
+        vertical-align: middle;
+    }
+    .menu-vertical > li > a{
+        
+        font-size: xx-large;
+        font-family:TrueType;
+        color: black;
+        text-decoration: none;
+        vertical-align: middle;
+        
+        
+         
+        }
+    .menu li:hover .menu-vertical{
+        display: block;
+        
+    }
+    .menu-vertical li:hover{
+        background-color:  white;
+      
+        
+    }
+    
+    /*pie de página*/
+    footer{
+        background: rgba(244, 179, 15, 0.233);
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: aliceblue;
+        max-width: 375px;  
+    }
+    .search-container { /*boton buscar*/
+        width: 375px;
+        display: flex;
+        justify-content: right;
+    }
+    .search-input {
+        background-color: rgb(226, 186, 7);
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        border: 1px #000 solid;
+        max-width: 375px;
+        margin-left: 10cm;
+        margin-top: -30px;
+        
+    }
+    .container {
+        max-width: 375px;
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        
+    
+    }
+}
